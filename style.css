@@ -18,7 +18,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
   gap: 20px;
   padding: 0 20px;
   margin-top: 20px;
@@ -74,6 +74,7 @@ body {
   display: none;
 }
 
+/* hide checkboxes while keeping functionality */
 .category-filter {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -86,7 +87,8 @@ body {
 }
 
 .category-filter:checked + label {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #333;
 }
 
 /* Show courses based on selected category */
