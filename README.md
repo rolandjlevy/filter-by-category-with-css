@@ -1,4 +1,4 @@
-# Filter byCategory
+# Filter by Category
 
 ### Description
 
