@@ -18,7 +18,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
   gap: 20px;
   padding: 0 20px;
   margin-top: 20px;
@@ -26,11 +26,27 @@ body {
 
 .course {
   text-align: center;
+  border: 1px solid #333;
+  background-color: #fff;
 }
 
 .box {
-  height: 100px;
+  height: 200px;
+  border: 1px solid #333;
   position: relative;
+}
+
+.box::after {
+  content: 'course';
+  position: absolute;
+  display: inline-block;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
 }
 
 .box.green {
