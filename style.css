@@ -47,7 +47,7 @@ body {
 }
 
 .box.green::after {
-  content: 'half-day course';
+  content: 'Half-day course';
 }
 
 .box.blue {
