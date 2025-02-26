@@ -11,5 +11,5 @@
 
 ### Links
 
-- [Live demo](https://js-clock-six.vercel.app)
-- [Github](https://github.com/rolandjlevy/js-clock)
+- [Live demo](https://filter-by-category-with-css.vercel.app/)
+- [Github](https://github.com/rolandjlevy/filter-by-category-with-css)
