@@ -1,4 +1,4 @@
-# Filter by Category
+# Filter by Category (CSS)
 
 ### Description
 
